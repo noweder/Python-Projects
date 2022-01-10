@@ -4,7 +4,7 @@
 
 Make a rock, paper, scissors game. 
 
-Inside the `main.py` file, you'll find the ASCII art for the hand signals already saved to a corresponding variable: `rock`, `paper`, and `scissors`. This will make it easy to print them out to the console. 
+Inside the `rock-paper-scissors.py` file, you'll find the ASCII art for the hand signals already saved to a corresponding variable: `rock`, `paper`, and `scissors`. This will make it easy to print them out to the console. 
 
 Start the game by asking the player:
 
