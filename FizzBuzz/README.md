@@ -29,7 +29,7 @@ Buzz
 Fizz
 13
 14
-FizzBuzz`
+FizzBuzz
 ```
 
 `.... etc.`
