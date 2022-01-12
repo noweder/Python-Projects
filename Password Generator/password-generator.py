@@ -13,12 +13,12 @@ pw_letters = random.sample(letters, nr_letters)
 pw_symbols = random.sample(symbols, nr_symbols)
 pw_numbers = random.sample(numbers, nr_numbers)
 
-pw_all = pw_letters + pw_symbols + pw_numbers
+pw_list = pw_letters + pw_symbols + pw_numbers
 
-random.shuffle(pw_all)
+random.shuffle(pw_list)
 final_pw = ""
-for x in pw_all:
-  final_pw += x
+for char in pw_list:
+  final_pw += char
 
 print(f"Randomly Generatated Password: {final_pw}")
 
