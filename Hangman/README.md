@@ -1,2 +1,3 @@
-# Hangame game code
+# Hangman game code
+
 
