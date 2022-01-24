@@ -40,7 +40,6 @@ def calculator():
         print(symbol)
 
     resume = True
-    final_answer = 0
 
     while resume:
 
