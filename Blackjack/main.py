@@ -28,17 +28,20 @@
 #   http://listmoz.com/view/6h34DJpvJBFVRlZfJvxF
 #Then try to create your own flowchart for the program.
 from art import logo
-from replit import clear
+import os, platform
 import random
+
+def clear():
+    if platform.system() == 'Windows':
+        os.system('cls')
+    else:
+        os.system('clear')
 
 def is_blackjack(cards):
     if sum(cards) == 21:
         return True
 def deal_card(cards, num):
     return random.sample(cards, num)
-
-def append(cards, new_card):
-    cards.append(new_card)
 
 def score(cards):
     return sum(cards)
