@@ -95,7 +95,9 @@ while is_continue == True:
             print(f"    Your final hand: {user_starting_cards}, final score: {score(user_starting_cards)}")
             print(f"    Computer's final hand: {computer_starting_cards}, final score: {score(computer_starting_cards)}")
             
-            if score(computer_starting_cards) == 21:
+            if score(computer_starting_cards) == score(user_starting_cards):
+                print("It's a draw!")
+            elif score(computer_starting_cards) == 21:
                 print("Blackjack for computer. You lose!")
             elif score(user_starting_cards) == 21:
                 print("You win with Blackjack!")
