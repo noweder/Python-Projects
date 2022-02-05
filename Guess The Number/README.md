@@ -1,4 +1,4 @@
-# Guess The Numbser Game
+# Guess The Number Game
 
 This is a game that asks you to guess a number between 1 and 100. There are two different difficulty modes; easy and hard.
 
