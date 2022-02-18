@@ -1,1 +1,2 @@
-## A list of Python exercises or projects for learning purpose.
+# A list of Python projects written by me for learning purpose
+
